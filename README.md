@@ -1,11 +1,8 @@
 # GuliKit TT MAX Reverse Engineering
 
-[![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+research and tooling for reverse engineering the **GuliKit TT MAX** (`NS69`) controller, with a focus on native rear-paddle support and firmware/update behavior.
 
-Half-baked but real research and tooling for reverse engineering the **GuliKit TT MAX** (`NS69`) controller, with a focus on native rear-paddle support and firmware/update behavior.
-
-## Current Status
+## Status
 
 - Native `P1`–`P4` paddle patch is **not solved**
 - TT MAX exposes multiple personalities on Windows:
@@ -50,25 +47,6 @@ Half-baked but real research and tooling for reverse engineering the **GuliKit T
 - A working native firmware patch
 - Any claim that the controller already exposes true native `P1`–`P4`
 - A guaranteed safe flashing workflow for modified TT firmware
-
-## Requirements
-
-- Python 3.11+
-- [uv](https://docs.astral.sh/uv/) (recommended) or pip
-
-### Install
-
-```bash
-# Clone the repository
-git clone https://github.com/Microck/gulikit-tt-max-re.git
-cd gulikit-tt-max-re
-
-# Install dependencies (with uv)
-uv sync
-
-# Or with pip
-pip install -e .
-```
 
 ### Configuration
 
@@ -123,11 +101,3 @@ The project follows two parallel investigation paths:
 1. **Host-side remapping** — Uses the controller's existing APG feature as a transport, translating paddle presses on the host. Survives firmware changes because it depends only on features GuliKit already ships.
 
 2. **Native firmware patching** — Patch the firmware so the controller emits extra HID buttons. Requires understanding the opaque update container format and the GP3F128 chip's flash layout. Higher risk but cleaner end state.
-
-## Contributing
-
-If you have live captures, board photos, or older TT firmware packages, those are the highest-value next inputs. Feel free to open an issue or pull request.
-
-## License
-
-This project is released under the MIT License. See [LICENSE](LICENSE) for details.
