@@ -1,0 +1,513 @@
+This time, we disassembled and tested the GuliKit TT Max
+and compared it with the TT Pro.
+The TT Max model is NS69 , and
+the TT Pro model is NS68.
+They each have two color options,
+but they are almost identical in appearance.
+I have to mention a few features: its
+joysticks are TMR joysticks. The
+joystick caps have anti-slip stripes,
+and the joystick limits are inside, so
+the joystick caps won't rub against the outer frame,
+resulting in a smoother feel.
+Within a 3% range,
+it can achieve relatively stable and precise movements.
+There is a force adjustment nut at the bottom of the joystick cap, which
+allows for stepless adjustment of
+the force within 720 degrees
+, or two turns.
+If you can't tell the direction of the force adjustment,
+you can look at the direction markings on the nut.
+Its vibration motor is not the common rotor motor; it is
+a reciprocating vibration motor
+developed and produced by GuliKit,
+which can change the force
+and vibration mode.
+When I unboxed it, I found that
+the TT Max and TT Pro... It comes with a convenient carrying case
+, which can charge the controller
+when closed.
+Furthermore,
+the front of the case is engraved with operation diagrams,
+clearly illustrating
+the settings and combination keys
+for special functions. Besides the carrying case
+, there's an accessory box
+containing a set of reverse ABXY keycaps
+, four metal back button levers
+, a joystick force adjustment lever,
+tweezers for removing keycaps,
+a 'FlashLink 2' multi-functional receiver
+, and an A-to-C USB cable
+for the TT MAX. It also comes with a set of joystick caps in two heights.
+The joystick cap that comes with the case is 4mm long,
+and the other two are 8mm and 11mm long.
+You might not know that
+there's also a set of D-pad keycaps hidden at the bottom of the storage box.
+There's no saying which is better,
+a
+double-layered D-pad or a disc-shaped D-pad ;
+it's more about which type you're more comfortable with.
+The D-pad interface has
+an anti-rotation design;
+there's a protrusion
+on the handle end and a corresponding groove on the keycap end.
+Unless forcibly damaged , the D-pad cannot be rotated. The ABXY buttons are
+four buttons distributed on different planes
+and at different heights. To swap the physical positions of ABXY,
+you need to replace the keycaps.
+The keycap interface, like the D-pad,
+has an anti-rotation design.
+For those with sweaty hands, this controller is a godsend!
+The grips on the back have anti-slip studs,
+providing ample friction
+, and the trigger buttons on both sides also have anti-slip studs,
+preventing slippage during linear operation.
+However, the grips on the front of the controller are smoother
+, reducing resistance for thumb movement.
+The top of the controller has no special design
+, only two sets of indicator lights, two function buttons
+, and a USB-C port.
+The back of the controller is smooth and flat,
+with only the trigger's momentary and linear switching levers
+, and four back buttons.
+The back buttons can be installed and removed without tools
+, relying solely on elastic clips for secure
+attachment; they can be installed
+by hand. In addition to the game control buttons, the front of the controller
+has four extra function buttons,
+which will be discussed later.
+The TT MAX and TT PRO look very similar,
+so what are the differences between them?
+Let's put the TT MAX and TT PRO manuals side by side
+to see their differences.
+Their button layout and functions are the same,
+making them difficult to distinguish visually.
+However, the TT MAX... There will be more advanced features.
+The MAX and PRO models come in four
+unique color schemes:
+MAX's Super Nintendo color and black,
+PRO's GB color and black-green.
+Both support
+joystick calibration
+, and the operation method is the same.
+Only the MAX supports
+PC motion gyroscope calibration.
+Pairing them with PC, Android, iOS, and macOS
+is the same for both models
+, as is pairing with the Switch.
+Both models have a learning button
+, but it differs .
+This learning button can be used individually
+or in combination;
+it's a patented feature of GuliKit.
+The MAX can record 10 minutes,
+while the PRO can only record 1 minute. In 0 seconds,
+all game actions
+except for the four back buttons can be recorded
+, including the select button, start button
+, and joystick actions.
+If a joystick action is recorded,
+the real-time joystick action during playback
+will replace the recorded action.
+The four back buttons can be individually mapped to a button,
+including the select button, start button, Home button
+, ABXY buttons, LR buttons, and ZL and ZR in pulse mode.
+Furthermore,
+the two joystick down buttons can also be recorded (mapped).
+However, the directional buttons can only be mapped to individual up, down, left
+, and right, not combinations like left-up, left-down, right-up, and right-down.
+Besides mapping, the four back buttons
+also support a learning function
+, but this is only supported on the TT MAX.
+It's worth noting that each of the four back buttons can be independently recorded for 30 seconds
+, meaning you can record four independent special moves.
+The recording range for each back button is the same as the learning button.
+With four back buttons and one learning button,
+a total of five independent special moves can be recorded.
+Isn't that awesome?
+The trigger lock setting method is the same for both models,
+so there's nothing to say.
+Based on my testing,
+the linear mode has approximately a 2mm dead zone in the upper and lower segments.
+(TT MAX and TT...) The PRO
+models share the same special function settings,
+but there are some functional differences.
+This key combination clears all settings
+, essentially restoring factory settings.
+Both are identical.
+The joystick dead zone mode selection
+has three options
+, and the operation is the same for both models.
+The first is the default no-dead-zone mode;
+within a 3% range,
+both joysticks can move linearly.
+Let's also check their circular error rate;
+both joysticks have a circular error rate of only 3.9%.
+The second is a dead-zone mode, with
+a dead zone range of approximately 15%.
+The third is an anti-rebound mode, with
+a dead zone range of approximately 15%.
+There are two burst fire settings:
+normal burst fire
+and automatic burst fire .
+The setting method is the same for both models.
+You can set the burst fire function for ABXY, R, and ZR.
+What you see now is the automatic burst fire effect
+for ABXY. Key values ​​can be swapped in the software
+, but only the Max model supports this function.
+However, both the Pro and Max
+models allow you to
+change the physical positions of the ABXY keys by replacing
+the keycaps
+. Both models offer three adjustable vibration intensity levels.
+This is difficult to describe in words
+, so you'll have to experience
+the vibration modes
+yourself . Both models also have three adjustable
+vibration modes. I recorded some vibration sounds
+, but ultimately you have to feel the difference by hand.
+Joystick sensitivity adjustment is only supported by the Max model.
+There are three levels in total:
+the first level is the default 100%
+, meaning
+the output is the same as the
+input; the second level is 150%,
+which amplifies
+the input, providing a full click effect;
+the third level is 50% ,
+which reduces the click effect
+, providing half the click amount
+but only half the effect.
+This is the 4-way mode of the D-pad
+, which is only supported on the Max version.
+The Pro version only has an 8-way mode.
+The 8-way mode actually allows two directions to be pressed simultaneously
+to form a combination key: left-up, left-down, right-up, right-down.
+When you switch to the 4-way mode,
+combination keys are disabled,
+and only the four directions (up, down, left, right) are output independently.
+PC motion-assisted aiming
+is still a feature exclusive to the Max version.
+You can use the gyroscope in the controller to manipulate the joystick to aim.
+There are three sensitivity levels. What
+you see now is the lowest sensitivity.
+This is the ring light effect setting,
+which is supported on both models.
+There are four modes in total:
+the first is the default constant light mode
+; the second is the joystick flowing
+light mode;
+the third is the dazzling flowing light mode; and the fourth is the trigger flowing light mode.
+If you don't want to see it, you
+can also set it to the light-off mode.
+Finally, this function is for the TT Max and TT Pro
+. You can read and share
+the operation files recorded through the learning button via
+computer connection
+, and conversely, you can also get other people's operation files
+and install them on your own controller
+to instantly have the combo moves of a pro.
+I almost forgot about GuliKit! The official website
+has a 'Controller Learning File Editor' where
+you can directly program the sequence of combo buttons
+and then export the APG file to directly overwrite the learning file in the controller
+to get a finely tuned ultimate move release.
+I tested the polling rate and resolution.
+The controller's built-in Flash Connect 2 Bluetooth and direct Bluetooth connection to the PC
+are much faster than the 100-200 Hz of ordinary Bluetooth. In actual
+tests, it was above 650 Hz.
+For TT's Bluetooth
+, which is the "Flash Connect 2" receiver...
+The official
+refresh rate is 730Hz, but actual testing shows it exceeds that.
+This FlashConnect 2 Bluetooth adapter
+, like the Bluetooth module in the gamepad,
+incorporates FlashConnect 2 Bluetooth technology.
+This adapter
+provides an independent channel for data transmission
+, increasing connection speed and stability.
+The FlashConnect 2 Bluetooth adapter also supports
+compatibility with other popular gamepads on multiple platforms,
+so it's not just a dedicated receiver for the TT gamepad.
+For USB wired connections, the official refresh rate is 1000Hz, but actual
+testing shows around 930Hz.
+This isn't a gamepad issue
+, but rather because my monitor was using a USB-C port,
+making the USB bus extremely busy.
+If you absolutely need 1000Hz,
+I recommend connecting your monitor to a DisplayPort or HDMI port.
+In the joystick resolution test,
+the left joystick's Y-axis reached
+a maximum average resolution of 1170 and 1260
+with a minimum step size of 16.
+The left joystick's X-axis reached
+an average resolution of 1130 and 1260
+with a minimum step size of 16.
+This resolution is perfectly adequate.
+Regarding button and joystick input latency,
+we obtained officially certified testing
+from the 'Gamepad Latency Test Database' website.
+Our Bluetooth connection latency rankings are for
+the TT Pro and TT Max. Their rankings are relatively high
+, and the test data is quite good.
+You can check the more detailed data yourself.
+If your TT Max or TT Pro runs out of power,
+the controller's vibration motor will be disabled
+, and the GuliKit logo on the front will flash to indicate that
+it is connected to the charger.
+It will then activate 5V 0.5A charging.
+Here are the charging statistics:
+Initially, I didn't turn it off;
+it was kept on while charging.
+The charging power was 2.9W.
+After 17 minutes, it automatically shut down,
+and the power dropped to 2.5W.
+The 2.5W power remained until
+1 hour and 26 minutes
+, then gradually decreased until fully
+charged. It took 2 hours and 5 minutes to fully charge,
+and the energy input was 4.799 Wh
+, or 4.8 Wh.
+The controller's battery is 3.7V 950mAh,
+equivalent to 3.515 Wh.
+Assuming an 80% conversion efficiency, the
+actual energy input was 3.839 Wh,
+which exceeds the rated energy value.
+This means the battery capacity is not falsely advertised.
+The TT Max console weighs 271.5 grams
+. The PRO console weighs 270.5 grams.
+This 1-gram difference actually comes from the longer joystick cap.
+The USB A to C cable inside the box
+is about 160 cm long,
+and the C connector has the GuliKit logo.
+By the way, the silver part on the joystick cap is actually a metal sleeve.
+The diameter of the metal sleeve is 10 mm and
+the wall thickness is 0.47 mm
+, which is a sufficiently thick material
+, not the kind of decorative item that collapses easily when squeezed.
+The metal levers of the four back buttons
+weigh a total of 14.6 grams.
+They are made of ferromagnetic material
+, but the attraction is not very strong.
+It is guessed to be an iron alloy.
+From these details, it can be judged that they are die-cast.
+The thickness of the levers is 1.4 mm,
+which is very thick for keys and
+quite sturdy.
+The replacement keycaps for ABXY look quite exquisite. Upon closer inspection
+, they are made of multiple materials and are die-cast multiple times.
+You need to disassemble the TT MAX or TT PRO. It's very easy to install.
+There are only four fixing screws on the back, and
+all four screw holes have silicone dust plugs.
+The four screws are the same size,
+so you don't need to consider the installation position when disassembling or assembling.
+The shell clips are in these two positions.
+If you can loosen these two clips first,
+you can avoid damaging the appearance.
+This handle is very user-friendly
+for DIY enthusiasts
+because there are no wires
+connecting the back cover and the motherboard.
+The four back buttons
+transmit signals to the motherboard
+through a small PCB . This mechanical structure is a lever for switching between momentary and linear triggering.
+The trigger button's limiting device is a silicone cushion
+that provides a soft bottoming-out cushion.
+There is one on each side,
+so when the trigger is switched to linear mode,
+pressing it all the way down is completely silent
+and the feel is soft.
+I only discovered
+this after disassembling it. The small hole on the back of the device
+serves a purpose.
+Looking inside, it corresponds to
+this location
+, and the metal plate provides space for it.
+On the motherboard, it corresponds to this button,
+although there are no markings
+, but it's likely a system reset button.
+This metal plate is 0.3 mm thick;
+it's
+a device for fixing the back button's position and providing elastic support
+. The back button is soldered onto this small PCB
+and connects to the motherboard via three contacts on the back.
+This is how the back button moves inside.
+The black part is a flexible material.
+The way the back button lever is fixed
+is completely unexpected
+—it uses this flexible material as a spring.
+It's a very clever design.
+This is the positioning spring plate for the momentary switch lever.
+There's a groove on the lever that works with the protrusion on the plate
+to achieve positioning.
+The spring plate is 0.3 mm thick,
+providing sufficient force.
+This is the momentary switch lever.
+This is the silicone pad that provides silent buffering for the trigger button.
+On the other side,
+behind the battery,
+there
+'s a flexible rubber pad
+to protect the battery.
+After removing the outer casing,
+the remaining weight is still 39 grams.
+Looking at the cross-section...
+The overall wall thickness is quite thick,
+with a 2mm wall thickness
+in the battery area.
+This thickness is sufficient to protect the battery cells
+from impacts.
+There are three contacts on
+each of the two locations on the motherboard
+, used to connect the back buttons.
+These are very thin surface-mount contacts.
+The controller's power supply is currently normal.
+We removed the vibration motor.
+Visually,
+it differs from a rotor motor.
+Its vibration mode is an axial reciprocating motion.
+The motor has a GuliKit logo
+and four clips on each side.
+After disassembling,
+this is what it looks like inside.
+From this angle,
+the axial vibration operation
+is clearly visible.
+The vibrating part inside
+is a magnet.
+I
+guess it's a coil
+because there are wires connecting it
+. After removing the metal shell,
+the coil can be seen.
+Judging from the distribution of magnetic lines,
+the magnetization direction of the magnet
+should be axial.
+This shell
+is made of iron,
+which can concentrate magnetic lines.
+It must be said that
+this "magnetic levitation motor"
+design is quite innovative.
+I'm using the GuliKit logo... The official website
+claims it has zero power consumption
+and can still be used
+after a year of standby.
+I need to check its standby current.
+First, I disconnected the positive terminal of the power supply
+and connected an ammeter in series. I can
+see that when I power it on
+again, the standby current is 1.7 microamps.
+The
+static operating current
+is about 60 milliamps.
+When I power it off again,
+the standby current
+is still 1.7 microamps.
+The battery label shows
+a capacity of 950mAh.
+This battery, when fully charged
+, would take 63.79 years to completely discharge
+at a current of 1.7 microamps
+(i.e., using the standby current) .
+Therefore, a year of standby
+is entirely possible.
+This is the trigger's momentary switching mechanism.
+It's currently in linear mode.
+Moving it over
+switches to momentary mode.
+It presses
+the microswitch
+below.
+There's a pressure spring
+below the screw.
+This momentary switch
+is activated by a lever that presses
+the magnet on the trigger. At this location,
+the Hall element is connected
+between the upper and lower boards
+via a ribbon cable.
+This is the assembly structure of the trigger button.
+The physical travel of the trigger button
+is approximately 7 millimeters.
+These two microswitches
+are the momentary mode buttons;
+they are very thin
+surface-mount microswitches.
+On the other side of the lower board,
+there are some chips.
+The silkscreen on this chip
+is worn away
+, but it is speculated to be a wireless connection chip
+because there is an antenna next to it
+. This chip
+has the GuliKit logo,
+but its function is unknown.
+This large chip
+also has the GuliKit logo; its model
+number is GP3F128,
+which is speculated to be the main control MCU.
+The silkscreen on this small chip
+is not visible,
+but it is speculated to be an op-amp.
+Finally, the rightmost chip
+has the GuliKit logo
+, but no information can be found for it.
+As far as I know, these have the GuliKit logo. The chip
+is developed by GuliKit
+, and the program code has been optimized for the underlying Bluetooth protocol.
+I think this is a major reason why the FlashConnect 2 wireless connection has relatively low latency.
+This is the screw that adjusts the torque of the joystick.
+Pressing down this push rod inside the joystick
+increases the torque.
+I found the GuliKit logo
+on the joystick shell.
+This is the AB button assembly. The
+assembly has the GuliKit logo on it.
+It has a built-in rebound device.
+The contacts are made of conductive rubber.
+The button travel is about 1 mm.
+The button sound is crisp with
+a slight mellowness.
+The battery has a plastic tray
+for holding it
+, which makes it very convenient
+to replace the battery cells.
+The L and R buttons on both sides are
+connected to the motherboard
+via ribbon cables . There aren't many electronic components on this PCB layer
+. The joysticks have contact points for the buttons, and
+there's a ring of
+colored LEDs around them
+. Each joystick has eight LEDs
+. The buttons
+on the front are all made of conductive rubber
+. This is the conductive rubber button for the D-
+pad. These are the other function buttons.
+The back looks like this.
+The physical travel of the D-pad is about 2mm.
+The key sound of the D-pad is quite smooth.
+These are the L and R keycaps.
+There are cushioning pads inside.
+The physical travel of the L and R keys is about 1-2mm.
+This is the D-pad's pressing lever.
+This button is the L and R button's pressing button.
+These are the keycaps for the other function buttons.
+The details are quite exquisite.
+Their key sound also has that smooth, conductive rubber feel.
+The support shafts for the L and R buttons are metal;
+in my opinion, they are almost indestructible.
+These are the light guides for two sets of indicator lights.
+This is the front of the GuliKit indicator. The logo's diffuser
+is actually an indicator light.
+After removing the cover, the front casing weighs 48.9 grams.
+Looking at the internal structure,
+the mold is quite complex
+and expensive.
+The front cover has a wall thickness of 2.7 mm
+, providing sufficient mechanical strength.
+Okay, that concludes the complete teardown of the GuliKit TT MAX.
+I'll disassemble it, you can evaluate it.
+I am JiDianJiang(JDJ).
+See you next time!

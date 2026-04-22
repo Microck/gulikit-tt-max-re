@@ -1,0 +1,1003 @@
+{
+  "command_count": 31,
+  "command_counts": {
+    "Test Unit Ready": 6,
+    "Write(10)": 17,
+    "Prevent/Allow Medium Removal": 4,
+    "Request Sense": 4
+  },
+  "command_sequence": [
+    {
+      "request_frame": 13,
+      "tag": 937717776,
+      "opcode": 0,
+      "command_name": "Test Unit Ready",
+      "cdb_length": 6,
+      "transfer_bytes": 0,
+      "lba": null,
+      "sectors": null,
+      "prevent": null,
+      "data_frames": [],
+      "status_frame": 16,
+      "status": 0,
+      "status_name": "Good",
+      "sense_key": null,
+      "sense_key_name": null,
+      "sense_asc": null,
+      "sense_ascq": null,
+      "sense_asc_ascq_name": null
+    },
+    {
+      "request_frame": 17,
+      "tag": 937717776,
+      "opcode": 0,
+      "command_name": "Test Unit Ready",
+      "cdb_length": 6,
+      "transfer_bytes": 0,
+      "lba": null,
+      "sectors": null,
+      "prevent": null,
+      "data_frames": [],
+      "status_frame": 20,
+      "status": 0,
+      "status_name": "Good",
+      "sense_key": null,
+      "sense_key_name": null,
+      "sense_asc": null,
+      "sense_ascq": null,
+      "sense_asc_ascq_name": null
+    },
+    {
+      "request_frame": 21,
+      "tag": 1043214352,
+      "opcode": 42,
+      "command_name": "Write(10)",
+      "cdb_length": 10,
+      "transfer_bytes": 512,
+      "lba": 0,
+      "sectors": 1,
+      "prevent": null,
+      "data_frames": [
+        {
+          "frame": 23,
+          "endpoint": 3,
+          "data_len": 512
+        }
+      ],
+      "status_frame": 26,
+      "status": 0,
+      "status_name": "Good",
+      "sense_key": null,
+      "sense_key_name": null,
+      "sense_asc": null,
+      "sense_ascq": null,
+      "sense_asc_ascq_name": null
+    },
+    {
+      "request_frame": 27,
+      "tag": 1015918608,
+      "opcode": 30,
+      "command_name": "Prevent/Allow Medium Removal",
+      "cdb_length": 6,
+      "transfer_bytes": 0,
+      "lba": null,
+      "sectors": null,
+      "prevent": 1,
+      "data_frames": [],
+      "status_frame": 30,
+      "status": 2,
+      "status_name": "Check Condition",
+      "sense_key": null,
+      "sense_key_name": null,
+      "sense_asc": null,
+      "sense_ascq": null,
+      "sense_asc_ascq_name": null
+    },
+    {
+      "request_frame": 31,
+      "tag": 1015918608,
+      "opcode": 3,
+      "command_name": "Request Sense",
+      "cdb_length": 12,
+      "transfer_bytes": 18,
+      "lba": null,
+      "sectors": null,
+      "prevent": null,
+      "data_frames": [
+        {
+          "frame": 34,
+          "endpoint": 130,
+          "data_len": 18
+        }
+      ],
+      "status_frame": 36,
+      "status": 0,
+      "status_name": "Good",
+      "sense_key": 5,
+      "sense_key_name": "Illegal Request",
+      "sense_asc": 32,
+      "sense_ascq": 0,
+      "sense_asc_ascq_name": "Invalid Command Operation Code"
+    },
+    {
+      "request_frame": 37,
+      "tag": 1043214352,
+      "opcode": 42,
+      "command_name": "Write(10)",
+      "cdb_length": 10,
+      "transfer_bytes": 4096,
+      "lba": 65,
+      "sectors": 8,
+      "prevent": null,
+      "data_frames": [
+        {
+          "frame": 39,
+          "endpoint": 3,
+          "data_len": 4096
+        }
+      ],
+      "status_frame": 42,
+      "status": 0,
+      "status_name": "Good",
+      "sense_key": null,
+      "sense_key_name": null,
+      "sense_asc": null,
+      "sense_ascq": null,
+      "sense_asc_ascq_name": null
+    },
+    {
+      "request_frame": 43,
+      "tag": 1043224032,
+      "opcode": 42,
+      "command_name": "Write(10)",
+      "cdb_length": 10,
+      "transfer_bytes": 512,
+      "lba": 1,
+      "sectors": 1,
+      "prevent": null,
+      "data_frames": [
+        {
+          "frame": 45,
+          "endpoint": 3,
+          "data_len": 512
+        }
+      ],
+      "status_frame": 48,
+      "status": 0,
+      "status_name": "Good",
+      "sense_key": null,
+      "sense_key_name": null,
+      "sense_asc": null,
+      "sense_ascq": null,
+      "sense_asc_ascq_name": null
+    },
+    {
+      "request_frame": 49,
+      "tag": 1043188256,
+      "opcode": 42,
+      "command_name": "Write(10)",
+      "cdb_length": 10,
+      "transfer_bytes": 512,
+      "lba": 33,
+      "sectors": 1,
+      "prevent": null,
+      "data_frames": [
+        {
+          "frame": 51,
+          "endpoint": 3,
+          "data_len": 512
+        }
+      ],
+      "status_frame": 54,
+      "status": 0,
+      "status_name": "Good",
+      "sense_key": null,
+      "sense_key_name": null,
+      "sense_asc": null,
+      "sense_ascq": null,
+      "sense_asc_ascq_name": null
+    },
+    {
+      "request_frame": 55,
+      "tag": 1043188256,
+      "opcode": 42,
+      "command_name": "Write(10)",
+      "cdb_length": 10,
+      "transfer_bytes": 4096,
+      "lba": 65,
+      "sectors": 8,
+      "prevent": null,
+      "data_frames": [
+        {
+          "frame": 57,
+          "endpoint": 3,
+          "data_len": 4096
+        }
+      ],
+      "status_frame": 60,
+      "status": 0,
+      "status_name": "Good",
+      "sense_key": null,
+      "sense_key_name": null,
+      "sense_asc": null,
+      "sense_ascq": null,
+      "sense_asc_ascq_name": null
+    },
+    {
+      "request_frame": 61,
+      "tag": 1043181584,
+      "opcode": 42,
+      "command_name": "Write(10)",
+      "cdb_length": 10,
+      "transfer_bytes": 46080,
+      "lba": 225,
+      "sectors": 90,
+      "prevent": null,
+      "data_frames": [
+        {
+          "frame": 63,
+          "endpoint": 3,
+          "data_len": 46080
+        }
+      ],
+      "status_frame": 66,
+      "status": 0,
+      "status_name": "Good",
+      "sense_key": null,
+      "sense_key_name": null,
+      "sense_asc": null,
+      "sense_ascq": null,
+      "sense_asc_ascq_name": null
+    },
+    {
+      "request_frame": 67,
+      "tag": 937717776,
+      "opcode": 0,
+      "command_name": "Test Unit Ready",
+      "cdb_length": 6,
+      "transfer_bytes": 0,
+      "lba": null,
+      "sectors": null,
+      "prevent": null,
+      "data_frames": [],
+      "status_frame": 70,
+      "status": 0,
+      "status_name": "Good",
+      "sense_key": null,
+      "sense_key_name": null,
+      "sense_asc": null,
+      "sense_ascq": null,
+      "sense_asc_ascq_name": null
+    },
+    {
+      "request_frame": 71,
+      "tag": 1043214352,
+      "opcode": 42,
+      "command_name": "Write(10)",
+      "cdb_length": 10,
+      "transfer_bytes": 512,
+      "lba": 0,
+      "sectors": 1,
+      "prevent": null,
+      "data_frames": [
+        {
+          "frame": 73,
+          "endpoint": 3,
+          "data_len": 512
+        }
+      ],
+      "status_frame": 76,
+      "status": 0,
+      "status_name": "Good",
+      "sense_key": null,
+      "sense_key_name": null,
+      "sense_asc": null,
+      "sense_ascq": null,
+      "sense_asc_ascq_name": null
+    },
+    {
+      "request_frame": 77,
+      "tag": 1043224032,
+      "opcode": 42,
+      "command_name": "Write(10)",
+      "cdb_length": 10,
+      "transfer_bytes": 512,
+      "lba": 0,
+      "sectors": 1,
+      "prevent": null,
+      "data_frames": [
+        {
+          "frame": 79,
+          "endpoint": 3,
+          "data_len": 512
+        }
+      ],
+      "status_frame": 82,
+      "status": 0,
+      "status_name": "Good",
+      "sense_key": null,
+      "sense_key_name": null,
+      "sense_asc": null,
+      "sense_ascq": null,
+      "sense_asc_ascq_name": null
+    },
+    {
+      "request_frame": 83,
+      "tag": 1043181584,
+      "opcode": 42,
+      "command_name": "Write(10)",
+      "cdb_length": 10,
+      "transfer_bytes": 512,
+      "lba": 1,
+      "sectors": 1,
+      "prevent": null,
+      "data_frames": [
+        {
+          "frame": 85,
+          "endpoint": 3,
+          "data_len": 512
+        }
+      ],
+      "status_frame": 88,
+      "status": 0,
+      "status_name": "Good",
+      "sense_key": null,
+      "sense_key_name": null,
+      "sense_asc": null,
+      "sense_ascq": null,
+      "sense_asc_ascq_name": null
+    },
+    {
+      "request_frame": 89,
+      "tag": 1043188256,
+      "opcode": 42,
+      "command_name": "Write(10)",
+      "cdb_length": 10,
+      "transfer_bytes": 512,
+      "lba": 33,
+      "sectors": 1,
+      "prevent": null,
+      "data_frames": [
+        {
+          "frame": 91,
+          "endpoint": 3,
+          "data_len": 512
+        }
+      ],
+      "status_frame": 94,
+      "status": 0,
+      "status_name": "Good",
+      "sense_key": null,
+      "sense_key_name": null,
+      "sense_asc": null,
+      "sense_ascq": null,
+      "sense_asc_ascq_name": null
+    },
+    {
+      "request_frame": 95,
+      "tag": 1015918608,
+      "opcode": 30,
+      "command_name": "Prevent/Allow Medium Removal",
+      "cdb_length": 6,
+      "transfer_bytes": 0,
+      "lba": null,
+      "sectors": null,
+      "prevent": 0,
+      "data_frames": [],
+      "status_frame": 98,
+      "status": 2,
+      "status_name": "Check Condition",
+      "sense_key": null,
+      "sense_key_name": null,
+      "sense_asc": null,
+      "sense_ascq": null,
+      "sense_asc_ascq_name": null
+    },
+    {
+      "request_frame": 99,
+      "tag": 1015918608,
+      "opcode": 3,
+      "command_name": "Request Sense",
+      "cdb_length": 12,
+      "transfer_bytes": 18,
+      "lba": null,
+      "sectors": null,
+      "prevent": null,
+      "data_frames": [
+        {
+          "frame": 102,
+          "endpoint": 130,
+          "data_len": 18
+        }
+      ],
+      "status_frame": 104,
+      "status": 0,
+      "status_name": "Good",
+      "sense_key": 5,
+      "sense_key_name": "Illegal Request",
+      "sense_asc": 32,
+      "sense_ascq": 0,
+      "sense_asc_ascq_name": "Invalid Command Operation Code"
+    },
+    {
+      "request_frame": 105,
+      "tag": 985418320,
+      "opcode": 30,
+      "command_name": "Prevent/Allow Medium Removal",
+      "cdb_length": 6,
+      "transfer_bytes": 0,
+      "lba": null,
+      "sectors": null,
+      "prevent": 1,
+      "data_frames": [],
+      "status_frame": 108,
+      "status": 2,
+      "status_name": "Check Condition",
+      "sense_key": null,
+      "sense_key_name": null,
+      "sense_asc": null,
+      "sense_ascq": null,
+      "sense_asc_ascq_name": null
+    },
+    {
+      "request_frame": 109,
+      "tag": 985418320,
+      "opcode": 3,
+      "command_name": "Request Sense",
+      "cdb_length": 12,
+      "transfer_bytes": 18,
+      "lba": null,
+      "sectors": null,
+      "prevent": null,
+      "data_frames": [
+        {
+          "frame": 112,
+          "endpoint": 130,
+          "data_len": 18
+        }
+      ],
+      "status_frame": 114,
+      "status": 0,
+      "status_name": "Good",
+      "sense_key": 5,
+      "sense_key_name": "Illegal Request",
+      "sense_asc": 32,
+      "sense_ascq": 0,
+      "sense_asc_ascq_name": "Invalid Command Operation Code"
+    },
+    {
+      "request_frame": 115,
+      "tag": 1043214352,
+      "opcode": 42,
+      "command_name": "Write(10)",
+      "cdb_length": 10,
+      "transfer_bytes": 4096,
+      "lba": 65,
+      "sectors": 8,
+      "prevent": null,
+      "data_frames": [
+        {
+          "frame": 117,
+          "endpoint": 3,
+          "data_len": 4096
+        }
+      ],
+      "status_frame": 120,
+      "status": 0,
+      "status_name": "Good",
+      "sense_key": null,
+      "sense_key_name": null,
+      "sense_asc": null,
+      "sense_ascq": null,
+      "sense_asc_ascq_name": null
+    },
+    {
+      "request_frame": 121,
+      "tag": 849799600,
+      "opcode": 42,
+      "command_name": "Write(10)",
+      "cdb_length": 10,
+      "transfer_bytes": 4096,
+      "lba": 65,
+      "sectors": 8,
+      "prevent": null,
+      "data_frames": [
+        {
+          "frame": 123,
+          "endpoint": 3,
+          "data_len": 4096
+        }
+      ],
+      "status_frame": 126,
+      "status": 0,
+      "status_name": "Good",
+      "sense_key": null,
+      "sense_key_name": null,
+      "sense_asc": null,
+      "sense_ascq": null,
+      "sense_asc_ascq_name": null
+    },
+    {
+      "request_frame": 127,
+      "tag": 1043214352,
+      "opcode": 42,
+      "command_name": "Write(10)",
+      "cdb_length": 10,
+      "transfer_bytes": 512,
+      "lba": 1,
+      "sectors": 1,
+      "prevent": null,
+      "data_frames": [
+        {
+          "frame": 129,
+          "endpoint": 3,
+          "data_len": 512
+        }
+      ],
+      "status_frame": 132,
+      "status": 0,
+      "status_name": "Good",
+      "sense_key": null,
+      "sense_key_name": null,
+      "sense_asc": null,
+      "sense_ascq": null,
+      "sense_asc_ascq_name": null
+    },
+    {
+      "request_frame": 133,
+      "tag": 1043222544,
+      "opcode": 42,
+      "command_name": "Write(10)",
+      "cdb_length": 10,
+      "transfer_bytes": 512,
+      "lba": 33,
+      "sectors": 1,
+      "prevent": null,
+      "data_frames": [
+        {
+          "frame": 135,
+          "endpoint": 3,
+          "data_len": 512
+        }
+      ],
+      "status_frame": 138,
+      "status": 0,
+      "status_name": "Good",
+      "sense_key": null,
+      "sense_key_name": null,
+      "sense_asc": null,
+      "sense_ascq": null,
+      "sense_asc_ascq_name": null
+    },
+    {
+      "request_frame": 139,
+      "tag": 937717776,
+      "opcode": 0,
+      "command_name": "Test Unit Ready",
+      "cdb_length": 6,
+      "transfer_bytes": 0,
+      "lba": null,
+      "sectors": null,
+      "prevent": null,
+      "data_frames": [],
+      "status_frame": 142,
+      "status": 0,
+      "status_name": "Good",
+      "sense_key": null,
+      "sense_key_name": null,
+      "sense_asc": null,
+      "sense_ascq": null,
+      "sense_asc_ascq_name": null
+    },
+    {
+      "request_frame": 143,
+      "tag": 1043181584,
+      "opcode": 42,
+      "command_name": "Write(10)",
+      "cdb_length": 10,
+      "transfer_bytes": 512,
+      "lba": 0,
+      "sectors": 1,
+      "prevent": null,
+      "data_frames": [
+        {
+          "frame": 145,
+          "endpoint": 3,
+          "data_len": 512
+        }
+      ],
+      "status_frame": 148,
+      "status": 0,
+      "status_name": "Good",
+      "sense_key": null,
+      "sense_key_name": null,
+      "sense_asc": null,
+      "sense_ascq": null,
+      "sense_asc_ascq_name": null
+    },
+    {
+      "request_frame": 149,
+      "tag": 1043188256,
+      "opcode": 42,
+      "command_name": "Write(10)",
+      "cdb_length": 10,
+      "transfer_bytes": 512,
+      "lba": 1,
+      "sectors": 1,
+      "prevent": null,
+      "data_frames": [
+        {
+          "frame": 151,
+          "endpoint": 3,
+          "data_len": 512
+        }
+      ],
+      "status_frame": 154,
+      "status": 0,
+      "status_name": "Good",
+      "sense_key": null,
+      "sense_key_name": null,
+      "sense_asc": null,
+      "sense_ascq": null,
+      "sense_asc_ascq_name": null
+    },
+    {
+      "request_frame": 155,
+      "tag": 1043214352,
+      "opcode": 42,
+      "command_name": "Write(10)",
+      "cdb_length": 10,
+      "transfer_bytes": 512,
+      "lba": 33,
+      "sectors": 1,
+      "prevent": null,
+      "data_frames": [
+        {
+          "frame": 157,
+          "endpoint": 3,
+          "data_len": 512
+        }
+      ],
+      "status_frame": 160,
+      "status": 0,
+      "status_name": "Good",
+      "sense_key": null,
+      "sense_key_name": null,
+      "sense_asc": null,
+      "sense_ascq": null,
+      "sense_asc_ascq_name": null
+    },
+    {
+      "request_frame": 161,
+      "tag": 937717776,
+      "opcode": 0,
+      "command_name": "Test Unit Ready",
+      "cdb_length": 6,
+      "transfer_bytes": 0,
+      "lba": null,
+      "sectors": null,
+      "prevent": null,
+      "data_frames": [],
+      "status_frame": 164,
+      "status": 0,
+      "status_name": "Good",
+      "sense_key": null,
+      "sense_key_name": null,
+      "sense_asc": null,
+      "sense_ascq": null,
+      "sense_asc_ascq_name": null
+    },
+    {
+      "request_frame": 165,
+      "tag": 1015918608,
+      "opcode": 30,
+      "command_name": "Prevent/Allow Medium Removal",
+      "cdb_length": 6,
+      "transfer_bytes": 0,
+      "lba": null,
+      "sectors": null,
+      "prevent": 0,
+      "data_frames": [],
+      "status_frame": 168,
+      "status": 2,
+      "status_name": "Check Condition",
+      "sense_key": null,
+      "sense_key_name": null,
+      "sense_asc": null,
+      "sense_ascq": null,
+      "sense_asc_ascq_name": null
+    },
+    {
+      "request_frame": 169,
+      "tag": 1015918608,
+      "opcode": 3,
+      "command_name": "Request Sense",
+      "cdb_length": 12,
+      "transfer_bytes": 18,
+      "lba": null,
+      "sectors": null,
+      "prevent": null,
+      "data_frames": [
+        {
+          "frame": 172,
+          "endpoint": 130,
+          "data_len": 18
+        }
+      ],
+      "status_frame": 174,
+      "status": 0,
+      "status_name": "Good",
+      "sense_key": 5,
+      "sense_key_name": "Illegal Request",
+      "sense_asc": 32,
+      "sense_ascq": 0,
+      "sense_asc_ascq_name": "Invalid Command Operation Code"
+    },
+    {
+      "request_frame": 175,
+      "tag": 937717776,
+      "opcode": 0,
+      "command_name": "Test Unit Ready",
+      "cdb_length": 6,
+      "transfer_bytes": 0,
+      "lba": null,
+      "sectors": null,
+      "prevent": null,
+      "data_frames": [],
+      "status_frame": 178,
+      "status": 0,
+      "status_name": "Good",
+      "sense_key": null,
+      "sense_key_name": null,
+      "sense_asc": null,
+      "sense_ascq": null,
+      "sense_asc_ascq_name": null
+    }
+  ],
+  "write_count": 17,
+  "writes": [
+    {
+      "request_frame": 21,
+      "data_frame": 23,
+      "status_frame": 26,
+      "lba": 0,
+      "sectors": 1,
+      "transfer_bytes": 512,
+      "payload_sha256": "634d870bb701efccea98e8e3839f8e04a57093cd58f0a058c01d14564a848c15"
+    },
+    {
+      "request_frame": 37,
+      "data_frame": 39,
+      "status_frame": 42,
+      "lba": 65,
+      "sectors": 8,
+      "transfer_bytes": 4096,
+      "payload_sha256": "53f044126c0195cf1b760699d6620c4fe40805d25aa3d8ab970dceac7367af92"
+    },
+    {
+      "request_frame": 43,
+      "data_frame": 45,
+      "status_frame": 48,
+      "lba": 1,
+      "sectors": 1,
+      "transfer_bytes": 512,
+      "payload_sha256": "3c7b894fe0592a7a14c895a326e53d7b74674f58cdd01676d4bf48c3f8023b47"
+    },
+    {
+      "request_frame": 49,
+      "data_frame": 51,
+      "status_frame": 54,
+      "lba": 33,
+      "sectors": 1,
+      "transfer_bytes": 512,
+      "payload_sha256": "3c7b894fe0592a7a14c895a326e53d7b74674f58cdd01676d4bf48c3f8023b47"
+    },
+    {
+      "request_frame": 55,
+      "data_frame": 57,
+      "status_frame": 60,
+      "lba": 65,
+      "sectors": 8,
+      "transfer_bytes": 4096,
+      "payload_sha256": "6278362ae1b163aa61992748734317d62b98fd20ef6c311d606711e5a1e11fff"
+    },
+    {
+      "request_frame": 61,
+      "data_frame": 63,
+      "status_frame": 66,
+      "lba": 225,
+      "sectors": 90,
+      "transfer_bytes": 46080,
+      "payload_sha256": "3f1a37931d38c0cfad994438555e5e3e90f34802c42e471f627b0bd3487042ed"
+    },
+    {
+      "request_frame": 71,
+      "data_frame": 73,
+      "status_frame": 76,
+      "lba": 0,
+      "sectors": 1,
+      "transfer_bytes": 512,
+      "payload_sha256": "634d870bb701efccea98e8e3839f8e04a57093cd58f0a058c01d14564a848c15"
+    },
+    {
+      "request_frame": 77,
+      "data_frame": 79,
+      "status_frame": 82,
+      "lba": 0,
+      "sectors": 1,
+      "transfer_bytes": 512,
+      "payload_sha256": "634d870bb701efccea98e8e3839f8e04a57093cd58f0a058c01d14564a848c15"
+    },
+    {
+      "request_frame": 83,
+      "data_frame": 85,
+      "status_frame": 88,
+      "lba": 1,
+      "sectors": 1,
+      "transfer_bytes": 512,
+      "payload_sha256": "f709264b4e410b2d34a71d3250f8c6079aa1f5ef5b689524343dd8483cc87bde"
+    },
+    {
+      "request_frame": 89,
+      "data_frame": 91,
+      "status_frame": 94,
+      "lba": 33,
+      "sectors": 1,
+      "transfer_bytes": 512,
+      "payload_sha256": "f709264b4e410b2d34a71d3250f8c6079aa1f5ef5b689524343dd8483cc87bde"
+    },
+    {
+      "request_frame": 115,
+      "data_frame": 117,
+      "status_frame": 120,
+      "lba": 65,
+      "sectors": 8,
+      "transfer_bytes": 4096,
+      "payload_sha256": "c5f6bcbe9bb83373aea8d131e93dc3a45c5547b66216521550cd3fb17d25afe2"
+    },
+    {
+      "request_frame": 121,
+      "data_frame": 123,
+      "status_frame": 126,
+      "lba": 65,
+      "sectors": 8,
+      "transfer_bytes": 4096,
+      "payload_sha256": "c5f6bcbe9bb83373aea8d131e93dc3a45c5547b66216521550cd3fb17d25afe2"
+    },
+    {
+      "request_frame": 127,
+      "data_frame": 129,
+      "status_frame": 132,
+      "lba": 1,
+      "sectors": 1,
+      "transfer_bytes": 512,
+      "payload_sha256": "3c7b894fe0592a7a14c895a326e53d7b74674f58cdd01676d4bf48c3f8023b47"
+    },
+    {
+      "request_frame": 133,
+      "data_frame": 135,
+      "status_frame": 138,
+      "lba": 33,
+      "sectors": 1,
+      "transfer_bytes": 512,
+      "payload_sha256": "3c7b894fe0592a7a14c895a326e53d7b74674f58cdd01676d4bf48c3f8023b47"
+    },
+    {
+      "request_frame": 143,
+      "data_frame": 145,
+      "status_frame": 148,
+      "lba": 0,
+      "sectors": 1,
+      "transfer_bytes": 512,
+      "payload_sha256": "49cd0888a17c446b2f4c70575b3f58d37266c0a64d6597743028f7d61d69b3fe"
+    },
+    {
+      "request_frame": 149,
+      "data_frame": 151,
+      "status_frame": 154,
+      "lba": 1,
+      "sectors": 1,
+      "transfer_bytes": 512,
+      "payload_sha256": "f709264b4e410b2d34a71d3250f8c6079aa1f5ef5b689524343dd8483cc87bde"
+    },
+    {
+      "request_frame": 155,
+      "data_frame": 157,
+      "status_frame": 160,
+      "lba": 33,
+      "sectors": 1,
+      "transfer_bytes": 512,
+      "payload_sha256": "f709264b4e410b2d34a71d3250f8c6079aa1f5ef5b689524343dd8483cc87bde"
+    }
+  ],
+  "boot_sector": {
+    "oem_name": "MSDOS5.0",
+    "bytes_per_sector": 512,
+    "sectors_per_cluster": 32,
+    "reserved_sectors": 1,
+    "fat_count": 2,
+    "root_entries": 512,
+    "sectors_per_fat": 32,
+    "root_dir_sectors": 32,
+    "fat_start_lba": 1,
+    "root_dir_start_lba": 65,
+    "data_start_lba": 97,
+    "total_sectors": 262144,
+    "volume_label": "GuliKit",
+    "filesystem_type": "FAT16"
+  },
+  "root_directory": [
+    {
+      "name": "GuliKit",
+      "short_name": "GuliKit",
+      "attributes": 8,
+      "start_cluster": 0,
+      "size": 0,
+      "cluster_chain": [],
+      "sha256": null
+    },
+    {
+      "name": "GULI.TXT",
+      "short_name": "GULI.TXT",
+      "attributes": 1,
+      "start_cluster": 2,
+      "size": 29,
+      "cluster_chain": [
+        2
+      ],
+      "sha256": "11e431c215c5bd334cecbd43148274edf3ffdbd6cd6479fe279577fbe5f52ce6"
+    },
+    {
+      "name": "System Volume Information",
+      "short_name": "SYSTEM~1",
+      "attributes": 22,
+      "start_cluster": 3,
+      "size": 0,
+      "cluster_chain": [
+        3
+      ],
+      "sha256": null
+    },
+    {
+      "name": "NS69_TT-MAX_V6.8.bin",
+      "short_name": "NS69_T~1.BIN",
+      "attributes": 32,
+      "start_cluster": 6,
+      "size": 45920,
+      "cluster_chain": [
+        6,
+        7,
+        8
+      ],
+      "sha256": "9881bc7320fd2732afedbb69e781f7353fe441d923414a97861df8c5006b57d8"
+    }
+  ],
+  "image_size_bytes": 134217728,
+  "sector_size": 512,
+  "match_file": {
+    "path": "firmware/NS69_TT-MAX_V6.8.bin",
+    "sha256": "9881bc7320fd2732afedbb69e781f7353fe441d923414a97861df8c5006b57d8",
+    "matching_write_requests": [
+      {
+        "request_frame": 61,
+        "data_frame": 63,
+        "lba": 225,
+        "sectors": 90,
+        "trailing_zero_padding": 160
+      }
+    ],
+    "matching_fat_entries": [
+      {
+        "name": "NS69_TT-MAX_V6.8.bin",
+        "short_name": "NS69_T~1.BIN",
+        "size": 45920,
+        "start_cluster": 6,
+        "cluster_chain": [
+          6,
+          7,
+          8
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fileName": "macro",
+  "version": "1.0",
+  "abxyLayout": "PC",
+  "macroList": [
+    {
+      "delay": 200,
+      "isBlankDelay": false,
+      "sticks": [],
+      "buttons": [
+        {
+          "id": "A"
+        }
+      ]
+    },
+    {
+      "delay": 200,
+      "isBlankDelay": true,
+      "sticks": [],
+      "buttons": []
+    }
+  ]
+}

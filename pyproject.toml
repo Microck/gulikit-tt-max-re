@@ -1,0 +1,47 @@
+[project]
+name = "ttmax-paddle-remapper"
+version = "0.1.0"
+description = "Host-side remapper for GuliKit TT MAX rear paddles using APG sentinel combos"
+readme = "ttmax-findings.md"
+requires-python = ">=3.11"
+dependencies = [
+  "evdev>=1.9,<2",
+  "hidapi>=0.15,<1",
+  "pillow>=10,<12",
+  "requests>=2.32,<3",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+include = [
+  "tools/download-gulikit-file.py",
+  "tools/ocr-gulikit-captcha.py",
+  "tools/scan-gulikit-file-ids.py",
+  "tools/analyze-ttmax-firmware.py",
+  "tools/apply-firmware-patch.py",
+  "tools/extract-usbms-writes.py",
+  "tools/ttmax-hid-probe.py",
+  "tools/ttmax-paddle-daemon.py",
+  "tools/ttmax-config.example.json",
+  "ttmax-findings.md",
+  "ttmax-native-firmware.md",
+]
+
+[tool.hatch.build.targets.sdist]
+include = [
+  "pyproject.toml",
+  "tools/download-gulikit-file.py",
+  "tools/ocr-gulikit-captcha.py",
+  "tools/scan-gulikit-file-ids.py",
+  "tools/analyze-ttmax-firmware.py",
+  "tools/apply-firmware-patch.py",
+  "tools/extract-usbms-writes.py",
+  "tools/ttmax-hid-probe.py",
+  "tools/ttmax-paddle-daemon.py",
+  "tools/ttmax-config.example.json",
+  "ttmax-findings.md",
+  "ttmax-native-firmware.md",
+]

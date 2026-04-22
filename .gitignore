@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Local downloads and vendor blobs
+*.zip
+firmware/*.bin
+artifacts/ttmax-auto.apg
+
+# Large or noisy captures not useful in the public snapshot
+artifacts/usbpcap3-readtest.pcapng
+artifacts/aknes-disassembly/
+NS69_TT-MAX_V6.7.bin.png
+NS69_TT-MAX_V6.8.bin.png
